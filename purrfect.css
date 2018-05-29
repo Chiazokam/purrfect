@@ -1,0 +1,38 @@
+
+html{
+	height: 100%;   /*Used so that the body would cover the entire screen, Image was halfway down and occupied only the body element*/
+}
+
+body{
+	background-image: url(images/landingpage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: lato;
+}
+
+
+.content{
+	text-align: center;
+	padding-top: 25%;
+	/*offset-x | offset-y | blur-radius | color*/
+	text-shadow: 0px 2px 3px black;
+}
+
+h1, h3{
+	color: #ffeaa7;
+}
+
+h1{
+	font-weight: 500;
+	font-size: 3em;
+}
+
+hr{
+	width: 400px;
+}
+
+.button_hover:hover{
+	color: black;
+	background-color: #ffeaa7; 
+}
